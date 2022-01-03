@@ -1,0 +1,15 @@
+a = input("what do u wanna use?[+;-;/;*]")
+b = float(input("first number:"))
+c = float(input("second number:"))
+
+if(a == "+"):
+    print(b + c)
+
+if(a == "-"):
+    print(b - c)
+
+if(a == "/"):
+    print(b / c)
+
+if(a == "*"):
+    print(b * c)
